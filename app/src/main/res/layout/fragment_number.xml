@@ -5,6 +5,10 @@
     android:layout_height="match_parent"
     android:background="#BBFFFF"
     tools:context=".NumberFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BBFFFF">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -41,5 +45,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
