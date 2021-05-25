@@ -100,7 +100,9 @@ public class WordFragment extends Fragment {
                 System.out.println(array.length);
                 for(int i = 0 ;i<array.length;i++){
                     String name = "%"+array[i]+"%";
-                    filter+="OR body LIKE?";
+                    if(i > 0){
+                        filter+="OR body LIKE?";
+                    }
                     filterArgs[i]="%"+array[i].toString()+"%";
 
                 }
