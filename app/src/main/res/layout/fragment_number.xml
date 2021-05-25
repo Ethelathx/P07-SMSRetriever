@@ -30,6 +30,12 @@
             android:layout_height="wrap_content"
             android:text="RETRIEVE SMS" />
 
+        <Button
+            android:id="@+id/buttonSendEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Email" />
+
         <TextView
             android:id="@+id/tvFrag1"
             android:layout_width="match_parent"

@@ -30,6 +30,12 @@
             android:layout_height="wrap_content"
             android:text="RETRIEVE SMS" />
 
+        <Button
+            android:id="@+id/buttonRetrieveAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retrieve All Words" />
+
         <TextView
             android:id="@+id/tvFrag1"
             android:layout_width="match_parent"
